@@ -1,0 +1,124 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: #2E2F42;
+}
+.nav-link:hover {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    color: #404BBF;
+}
+.nav-link:active {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    color: #404BBF;
+}
+
+.header-logo {
+    text-decoration: none;
+    color: #2E2F42;
+}
+.accent {
+    color: #4D5AE5;
+}
+
+.contacts {
+    color: #434455;
+}
+.contacts:hover {
+    color: #404BBF;
+}
+.contacts:focus {
+    color: #404BBF;
+}
+
+.main-heading {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.button:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.feature-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+.team-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    background-color: #F4F4FD;
+    color: #2E2F42;
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.footer-paragraph {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.footer-logo {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
