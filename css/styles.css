@@ -1,6 +1,17 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 .nav-link {
     font-weight: 400;
@@ -27,7 +38,16 @@ body {
     color: #404BBF;
 }
 
+.contacts {
+    color: #434455;
+}
+
+.contacts:hover {
+    color: #404BBF;
+}
+
 .header-logo {
+    text-transform: uppercase;
     text-decoration: none;
     color: #2E2F42;
 }
@@ -43,6 +63,10 @@ body {
 }
 .contacts:focus {
     color: #404BBF;
+}
+
+.hero-section {
+    background-color: #2E2F42
 }
 
 .main-heading {
@@ -63,6 +87,7 @@ body {
     color: #FFFFFF;
 }
 .button:hover {
+    cursor: pointer;
     background-color: #404BBF;
     color: #FFFFFF;
 }
@@ -75,6 +100,10 @@ body {
     color: #2E2F42;
 }
 
+.feature-paragraph {
+    text-align: left;
+}
+
 .paragraph {
     font-weight: 400;
     font-size: 16px;
@@ -84,13 +113,23 @@ body {
 
 }
 
+.team {
+    background-color: #F4F4FD;
+    color: #2E2F42;
+}
+
 .team-heading {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.02em;
+    text-align: center;
     background-color: #F4F4FD;
     color: #2E2F42;
+}
+
+.team-desc {
+    background-color: #FFFFFF;
 }
 
 .team-member {
@@ -98,7 +137,12 @@ body {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2E2F42;
+}
+
+.paragraph-team {
+    text-align: center;
 }
 
 .portfolio-title {
@@ -107,6 +151,10 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+
+.portfolio-paragraph {
+    color: #434455;
 }
 
 .footer-paragraph {
@@ -119,6 +167,12 @@ body {
 }
 
 .footer-logo {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;;
     background-color: #2E2F42;
     color: #F4F4FD;
+}
+
+.footer {
+    background-color: #2E2F42;
 }
